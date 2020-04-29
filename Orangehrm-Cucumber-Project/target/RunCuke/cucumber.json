@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15594841400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should submit contact details successfully",
+        "description": "",
+        "id": "contact-sales-functionality;user-should-submit-contact-details-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 849553200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 315811300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "ContactSalesStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1707869700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on contact sales button",
+            "match": {
+              "location": "ContactSalesStepdefs.iClickOnContactContactSalesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should navigate to contact sales page",
+            "match": {
+              "location": "ContactSalesStepdefs.iShouldNavigateToContactSalesPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14687845100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should submit contact details successfully",
+        "description": "",
+        "id": "contact-sales-functionality;user-should-submit-contact-details-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 786744200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on home page",
+            "match": {
+              "location": "ContactSalesStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1672896200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on contact sales button",
+            "match": {
+              "location": "ContactSalesStepdefs.iClickOnContactContactSalesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2116438800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter first name \"Nikita\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nikita",
+                  "offset": 20
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 388393800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter last name \"Patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patel",
+                  "offset": 19
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461169100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter company name \"ACB Ltd.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ACB Ltd.",
+                  "offset": 22
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnterCompanyName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565722000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select number employees \"151 - 200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "151 - 200",
+                  "offset": 27
+                }
+              ],
+              "location": "ContactSalesStepdefs.iSelectNumberEmployees(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416022800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter phone number \"07777888899\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07777888899",
+                  "offset": 22
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnterPhoneNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420513700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter job title \"QA Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnterJobTitle(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603038600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \"abcdefg123@yahoo.co.uk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdefg123@yahoo.co.uk",
+                  "offset": 9
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485840700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select country name \"United Kingdom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United Kingdom",
+                  "offset": 23
+                }
+              ],
+              "location": "ContactSalesStepdefs.iSelectCountryName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310404300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter comment \"None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "None",
+                  "offset": 17
+                }
+              ],
+              "location": "ContactSalesStepdefs.iEnterComment(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Sales functionality",
+    "description": "As a user I want to submit contact details in orangehrm",
+    "id": "contact-sales-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/orangehrm/resources/featurefile/contactsales.feature"
+  }
+]
